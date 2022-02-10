@@ -20,7 +20,6 @@ class Node:
         else:
             self.data = data
 
-
     def PrintTree(self):
         if self.left:
             self.left.PrintTree()
